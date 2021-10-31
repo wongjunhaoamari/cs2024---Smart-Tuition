@@ -103,6 +103,13 @@ body{
 }
 
 
+
+/* Checkbox text */
+.checkboxtext
+{
+  font-size: 90%;
+}
+
 /*sidenav*/
 .sidenav {
   height: 100%;
@@ -151,6 +158,29 @@ body{
   width: 100%;
   height: 250px;
   overflow: hidden;
+}
+
+.tab-container{
+  width: 70%;
+  margin: auto;
+}
+
+/* contactus forms */
+.cu-container{
+  display: grid;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: auto;
+
+}
+
+.cu-container:nth-child(2){
+  grid-column: span 2;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 800px) {
