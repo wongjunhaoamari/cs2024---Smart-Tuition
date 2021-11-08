@@ -351,7 +351,12 @@ html,body {
   background-color: lightgray;
 }
 
-
+/* Achievement */
+.table,
+.table tr,
+.table td {
+    border-color: black;
+}
 
 @media only screen and (max-width: 800px) {
   .sidenav {padding-top: 15px;}
