@@ -7,7 +7,7 @@ body{
   font-size: 16px;
 }
 
-.header-container{
+.center-container{
   width: 100%;
   align-items: center;
   margin-right: auto;
@@ -165,8 +165,25 @@ body{
   margin: auto;
 }
 
+/* curriculum */
+.curriculum-container{
+  display: grid;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: auto;
+}
+
+.curriculum-container:nth-child(3){
+  grid-column: span 3;
+  margin-bottom: 10px;
+}
+
 /* contactus forms */
-.cu-container{
+.contactus-container{
   display: grid;
   padding-left: 200px;
   padding-right: 200px;
@@ -178,7 +195,7 @@ body{
 
 }
 
-.cu-container:nth-child(2){
+.contactus-container:nth-child(2){
   grid-column: span 2;
   margin-bottom: 10px;
 }
