@@ -61,20 +61,6 @@ html,body {
   margin-left: auto;
 }
 
-.event-container{
-  width: 100%;
-  display: grid;
-  padding: auto;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: auto;
-}
-
-.event-container:nth-child(3){
-  grid-column: span 3;
-  margin-bottom: 10px;
-}
-
 .bg-beige{
   /* background-color: rgb(255, 251, 245); */
   background-color: beige;
@@ -201,6 +187,7 @@ html,body {
   margin: auto;
 }
 
+/* Courses */
 .inner-container {
   width:70%;
   margin:auto;
@@ -229,6 +216,30 @@ html,body {
   border-color: rgba(249,214,218, 0.5);
   border-bottom: none;
   color: black;
+/* events */
+.date-border{
+  height: auto;
+  margin: auto;
+  padding-left: 20px;
+  width: 68%;
+  font-size: small;
+  color: #ffffff;
+  background-color: #818181;
+}
+
+.event-container{
+  margin: auto;
+  width: 68%;
+  display: grid;
+  padding: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: auto;
+}
+
+.event-container:nth-child(6){
+  grid-column: span 3;
+  margin-bottom: 10px;
 }
 /* curriculum */
 .curriculum-container{
@@ -263,6 +274,21 @@ html,body {
 .contactus-container:nth-child(2){
   grid-column: span 2;
   margin-bottom: 10px;
+}
+
+/* Course Fee */
+.onlinecourse-container{
+  height: auto;
+  width: 68%;
+  margin: auto;
+}
+
+.onlinecourse-bg{
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: lightgray;
 }
 
 
