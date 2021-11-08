@@ -1,13 +1,23 @@
 body{
   font-family: 'Assistant', sans-serif;
-  margin: 0px;
-  padding: 0px;
-
   font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+html,body {
+  position: absolute;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  margin: 0;
+  padding: 0;
+  width: 100%
 }
 
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
-  padding: 1rem 5rem 1rem 3rem;
+  padding: 1rem 4rem 1rem 3rem;
   background: white;
 }
 
@@ -188,10 +198,38 @@ body{
 }
 
 .tab-container{
-  width: 70%;
   margin: auto;
 }
 
+.inner-container {
+  width:70%;
+  margin:auto;
+}
+
+#home {
+  background: lightseagreen;
+}
+
+#preschool {
+  background-color: rgba(249,214,218, 0.5);
+}
+
+.nav-tabs .nav-item:nth-child(1) .active {
+  border-color: red;
+  background-color: red;
+  color: #FFF;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-item:nth-child(2) .active {
+  background-color: rgba(249,214,218, 0.5);
+  border-color: rgba(249,214,218, 0.5);
+  border-bottom: none;
+  color: black;
+}
 /* curriculum */
 .curriculum-container{
   display: grid;
@@ -227,12 +265,11 @@ body{
   margin-bottom: 10px;
 }
 
+
+
 @media only screen and (max-width: 800px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .navbar-expand-lg {
-    display: none;
-  }
   .web{
     display: none;
     visibility: hidden;
