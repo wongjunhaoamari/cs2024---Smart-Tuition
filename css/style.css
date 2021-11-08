@@ -216,6 +216,26 @@ html,body {
   border-color: rgba(249,214,218, 0.5);
   border-bottom: none;
   color: black;
+}
+
+/* programmes */
+.programmes-container{
+  display: grid;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 100px;
+  grid-auto-rows: auto;
+}
+
+.curriculum-container:nth-child(4){
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
 /* events */
 .date-border{
   height: auto;
