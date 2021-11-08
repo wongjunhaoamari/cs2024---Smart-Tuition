@@ -7,7 +7,6 @@ body{
 }
 
 html,body {
-  position: absolute;
   bottom:0;
   top:0;
   left:0;
@@ -16,10 +15,10 @@ html,body {
   padding: 0;
   width: 100%
 }
-header img{
-  height:500px;
-}
-.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+
+.navbar, .navbar-expand-lg, .navbar-light{
+  width: 68%;
+  margin: auto;
   padding: 1rem 4rem 1rem 3rem;
   background: white;
 }
@@ -38,9 +37,6 @@ header img{
     background: #d6d6d6;
     transition: all 0.2s ease-in-out 0s;
 }
-/* .navbar-nav {
-  padding-right: 5.0rem;
-} */
 
 .navbar-toggler:focus {
   box-shadow: none;
@@ -261,7 +257,8 @@ header img{
 
 
 /* programmes */
-.programmes-container {
+.programmes-container{
+  position: relative;
   display: grid;
   padding-left: 200px;
   padding-right: 200px;
@@ -278,6 +275,10 @@ header img{
   margin-bottom: 10px;
 }
 
+.programmes-container a:hover{
+  color: darkcyan;
+}
+
 /* events */
 .date-border{
   height: auto;
@@ -290,6 +291,7 @@ header img{
 }
 
 .event-container{
+  position: relative;
   margin: auto;
   width: 68%;
   display: grid;
@@ -361,14 +363,12 @@ header img{
 }
 
 @media only screen and (max-width: 800px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-  .web{
-    display: none;
-    visibility: hidden;
-  }
-  .mobile{
-    display: block;
-    visibility: visible;
+  /* navbar-mobile */
+  .navbar, .navbar-expand-lg, .navbar-light{
+    width: 100%;
+    margin: auto;
+    padding: 1rem 4rem 1rem 3rem;
+    background: white;
+    transition: all 0.1s ease-in-out 0s;
   }
 }
