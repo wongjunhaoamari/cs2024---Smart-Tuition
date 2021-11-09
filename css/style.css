@@ -16,6 +16,12 @@ html,body {
   width: 100%
 }
 
+.headerimg {
+  background-image: url(../assets/preschool_banner.jpg);
+  background-position: center;
+  height:500px;
+  background-size: cover;
+}
 .navbar, .navbar-expand-lg, .navbar-light{
   width: 68%;
   margin: auto;
