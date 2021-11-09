@@ -130,8 +130,6 @@ html,body {
   background-color: #d71440;
 }
 
-
-
 /* Checkbox text */
 .checkboxtext
 {
@@ -280,7 +278,7 @@ html,body {
 .programmes-image {
   position: relative;
   width: 100%;
-  margin: auto;      
+  margin: auto;
 }
 
 .programmes-hover {
@@ -347,13 +345,11 @@ html,body {
 /* curriculum */
 .curriculum-container{
   display: grid;
-  padding-left: 200px;
-  padding-right: 200px;
-  width: 80%;
+  max-width: 68%;
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: auto;
+  grid-gap: 10px;
+
 }
 
 .curriculum-container:nth-child(3){
@@ -366,7 +362,7 @@ html,body {
 }
 
 .findoutmore-btn:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 /* contactus forms */
 .contactus-container{
@@ -406,7 +402,16 @@ opacity: 0.8;
     border-color: black;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
+  /* navbar-mobile */
+  .navbar, .navbar-expand-lg, .navbar-light{
+    width: 100%;
+    margin: auto;
+    padding: 1rem 4rem 1rem 3rem;
+    background: white;
+    transition: all 0s ease-in-out 0s;
+  }
+
   /* index - programmes */
   .programmes-container{
     grid-template-columns: repeat(1, 1fr);
@@ -424,15 +429,3 @@ opacity: 0.8;
 
   /* curriculum */
 }
-
-@media only screen and (max-width: 1000px) {
-  /* navbar-mobile */
-  .navbar, .navbar-expand-lg, .navbar-light{
-    width: 100%;
-    margin: auto;
-    padding: 1rem 4rem 1rem 3rem;
-    background: white;
-    transition: all 0.0s ease-in-out 0s;
-  }
-}
-
