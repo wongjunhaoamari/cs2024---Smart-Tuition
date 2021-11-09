@@ -328,6 +328,13 @@ html,body {
   margin-bottom: 10px;
 }
 
+.findoutmore-btn {
+  color: white;
+}
+
+.findoutmore-btn:hover {
+opacity: 0.8;
+}
 /* contactus forms */
 .contactus-container{
   display: grid;
