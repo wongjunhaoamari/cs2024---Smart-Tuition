@@ -371,14 +371,12 @@ opacity: 0.8;
 /* contactus forms */
 .contactus-container{
   display: grid;
-  padding-left: 200px;
-  padding-right: 200px;
-  width: 80%;
+  width: 68%;
   margin: auto;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-gap: 5rem;
   grid-auto-rows: auto;
-
+  text-align: justify;
 }
 
 .contactus-container:nth-child(2){
@@ -409,15 +407,6 @@ opacity: 0.8;
 }
 
 @media only screen and (max-width: 800px) {
-  /* navbar-mobile */
-  .navbar, .navbar-expand-lg, .navbar-light{
-    width: 100%;
-    margin: auto;
-    padding: 1rem 4rem 1rem 3rem;
-    background: white;
-    transition: all 0.1s ease-in-out 0s;
-  }
-
   /* index - programmes */
   .programmes-container{
     grid-template-columns: repeat(1, 1fr);
@@ -427,4 +416,23 @@ opacity: 0.8;
     width: 93%;
     border-radius: 16px;
   }
+
+  /* contact us */
+  .contactus-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* curriculum */
 }
+
+@media only screen and (max-width: 1000px) {
+  /* navbar-mobile */
+  .navbar, .navbar-expand-lg, .navbar-light{
+    width: 100%;
+    margin: auto;
+    padding: 1rem 4rem 1rem 3rem;
+    background: white;
+    transition: all 0.0s ease-in-out 0s;
+  }
+}
+
