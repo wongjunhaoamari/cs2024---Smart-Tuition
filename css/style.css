@@ -19,7 +19,9 @@ html,body {
 .font-h1 {
   font-weight: 300;
 }
-
+#index-bg {
+  background-color: rgb(228,230,216);
+}
 .carousel-item img{
     max-height: 80%;
 }
@@ -258,7 +260,8 @@ html,body {
 }
 
 #preschool {
-  background-color: #e8d9cc;
+  background-color: rgba(243,233,161, 0.3);
+  /* background-color: #e8d9cc; */
 }
 
 #primary {
