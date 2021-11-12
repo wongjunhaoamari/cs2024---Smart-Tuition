@@ -16,6 +16,14 @@ html,body {
   width: 100%
 }
 
+.font-h1 {
+  font-weight: 300;
+}
+
+.carousel-item img{
+    max-height: 80%;
+}
+
 .preschoolimg {
   background-image: url(../assets/preschool_banner.jpg);
   background-position: center;
@@ -82,6 +90,7 @@ html,body {
 .separator-line{
   width: 30%;
   border-top: 4px solid #818181;
+  margin-top: 2rem;
 }
 
 #header{
