@@ -334,8 +334,7 @@ html,body {
   display: grid;
   padding: auto;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: auto;
+  grid-gap: 10px;
 }
 
 .event-container:nth-child(6){
@@ -429,6 +428,11 @@ html,body {
 
   /* curriculum */
   .curriculum-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* events */
+  .event-container{
     grid-template-columns: repeat(1, 1fr);
   }
 }
