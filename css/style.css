@@ -15,7 +15,10 @@ html,body {
   padding: 0;
   width: 100%
 }
-
+#home_banner .row>* {
+  padding-left: 0;
+  padding-right: 0;
+}
 .font-h1 {
   font-weight: 300;
 }
@@ -72,7 +75,6 @@ html,body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  color: #555555;
 }
 
 .center-content{
@@ -125,9 +127,10 @@ html,body {
 }
 
 .banner-caption .fineprint{
-  font-size: 0.7vw;
+  font-size: 1.0vw;
   color: #555555;
   padding-top: 5px;
+  padding-bottom: 1.2rem;
 }
 
 .banner-caption .btn-text{
@@ -136,9 +139,18 @@ html,body {
 }
 
 .banner-caption h3{
-  font-size: 1.5vw;
+  font-size: 2.0vw;
   font-weight: 300;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 2rem;
+}
+
+
+.banner-caption h1{
+  font-size: 2.5vw;
+  font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .top-menu{
