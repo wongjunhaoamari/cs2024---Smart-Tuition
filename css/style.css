@@ -431,6 +431,19 @@ html,body {
 }
 
 /* Course Fee */
+.coursefee-container{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  grid-auto-rows: auto;
+}
+
+.coursefee-container:nth-child(2){
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
 .onlinecourse-container{
   height: auto;
   width: 68%;
@@ -485,6 +498,16 @@ html,body {
   /* events */
   .event-container{
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* coursefee */
+  .coursefee-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .center-adjust{
+    text-align: center;
+    margin: auto;
   }
 
   /* index banner */
