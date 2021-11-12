@@ -240,6 +240,11 @@ html,body {
   margin:auto;
 }
 
+.achievement-container {
+  width: 100%;
+  display:flex;
+}
+
 .nav-item a{
   color:gray;
 }
