@@ -129,7 +129,7 @@ html,body {
 }
 
 .banner-caption .btn-text{
-  font-size: 1vw; 
+  font-size: 1vw;
   font-weight: 100;
 }
 
@@ -243,7 +243,6 @@ html,body {
 
 .achievement-container {
   width: 100%;
-  display:flex;
 }
 
 .nav-item a{
@@ -259,7 +258,7 @@ html,body {
 }
 
 #preschool {
-  background-color: rgba(243,233,161, 0.3);
+  background-color: #e8d9cc;
 }
 
 #primary {
@@ -408,10 +407,12 @@ html,body {
 
 .findoutmore-btn {
   color: white;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 .findoutmore-btn:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out 0s;
 }
 /* contactus forms */
 .contactus-container{
