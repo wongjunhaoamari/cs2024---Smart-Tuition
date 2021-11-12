@@ -25,14 +25,25 @@ html,body {
 #index-bg {
   background-color: rgb(228,230,216);
 }
+
+#contact-bg {
+  background-color:#e8d9cc;
+}
 .carousel-item img{
     max-height: 80%;
 }
 
 .preschoolimg {
-  background-image: url(../assets/preschool_banner.jpg);
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(../assets/preschool_banner.jpg);
   background-position: center;
-  height:500px;
+  height:600px;
+  background-size: cover;
+}
+
+.primaryimg {
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),  url(../assets/PrimarySchool_banner.jpg);
+  background-position: center;
+  height:600px;
   background-size: cover;
 }
 
@@ -563,7 +574,9 @@ html,body {
   .curriculum-container{
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .programmes-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* events */
   .event-container{
     grid-template-columns: repeat(1, 1fr);
