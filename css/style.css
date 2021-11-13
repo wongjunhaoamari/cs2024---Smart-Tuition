@@ -69,7 +69,7 @@ html,body {
   background-size: cover;
 }
 .navbar, .navbar-expand-lg, .navbar-light{
-  width: 68%;
+  width: 75%;
   margin: auto;
   padding: 1rem 4rem 1rem 3rem;
   background: white;
@@ -685,6 +685,123 @@ html,body {
 .table tr,
 .table td {
     border-color: black;
+}
+
+/* privacy policy */
+.privacy-container{
+  text-align: start;
+  margin: auto;
+  width: 68%;
+}
+
+#more1{
+  display: none;
+}
+
+#more2{
+  display: none;
+}
+
+#more3{
+  display: none;
+}
+
+#more4{
+  display: none;
+}
+
+#more5{
+  display: none;
+}
+
+#more6{
+  display: none;
+}
+
+#more7{
+  display: none;
+}
+
+#more8{
+  display: none;
+}
+
+#more9{
+  display: none;
+}
+
+#more10{
+  display: none;
+}
+
+#more11{
+  display: none;
+}
+
+.btnoverflow{
+  overflow: hidden;
+}
+
+.dropdownbtn{
+  background-color: white;
+  border: none;
+  padding: none;
+  text-align: start;
+}
+
+#dropdownarrow1{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow2{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow3{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow4{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow5{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow6{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow7{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow8{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow9{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow10{
+  transform: rotate(-45deg);
+}
+
+#dropdownarrow11{
+  transform: rotate(-45deg);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
 }
 
 @media only screen and (max-width: 992px) {
