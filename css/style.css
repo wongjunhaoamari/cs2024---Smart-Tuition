@@ -41,6 +41,11 @@ html,body {
   width: 80%;
 }
 
+.padding-programme {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  font-size:2.4vw;
+}
 .preschoolimg {
   background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(../assets/preschool_banner.jpg);
   background-position: center;
@@ -114,6 +119,11 @@ html,body {
 }
 
 .contact-container {
+  width:100%;
+  object-fit: scale-down;
+}
+
+.privacy-container {
   width:100%;
   object-fit: scale-down;
 }
@@ -397,7 +407,7 @@ html,body {
 }
 
 .headerimg {
-  position: relative; 
+  position: relative;
   width: 100%;
 }
 
