@@ -633,6 +633,11 @@ html,body {
   grid-column: span 3;
   margin-bottom: 10px;
 }
+
+.fit-to-div {
+  width:100%;
+  height:100%;
+}
 /* curriculum */
 .curriculum-container{
   display: grid;
@@ -644,6 +649,32 @@ html,body {
 
 .curriculum-container:nth-child(4){
   grid-column: span 4;
+  margin-bottom: 10px;
+}
+
+.home-event-container{
+  display: grid;
+  max-width: 68%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.home-event-container:nth-child(4){
+  grid-column: span 4;
+  margin-bottom: 10px;
+}
+
+.our-events-container {
+  display: grid;
+  max-width: 68%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.our-events-container:nth-child(3) {
+  grid-column: span 3;
   margin-bottom: 10px;
 }
 
@@ -916,12 +947,22 @@ html,body {
   .curriculum-container{
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .home-event-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .programmes-container{
     grid-template-columns: repeat(1, 1fr);
   }
   .our-programmes-container{
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .our-events-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   /* events */
   .event-container{
     grid-template-columns: repeat(1, 1fr);
