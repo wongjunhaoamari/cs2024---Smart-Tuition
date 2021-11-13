@@ -666,6 +666,25 @@ html,body {
   margin-bottom: 10px;
 }
 
+#event1:hover img{
+  filter: brightness(0.5);
+}
+#event2:hover img{
+  filter: brightness(0.5);
+}
+#event3:hover img{
+  filter: brightness(0.5);
+}
+#event4:hover img{
+  filter: brightness(0.5);
+}
+
+
+.home-event-container a{
+  text-decoration: none;
+  color: white;
+}
+
 .our-events-container {
   display: grid;
   max-width: 68%;
