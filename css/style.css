@@ -95,6 +95,14 @@ html,body {
   text-align: center;
 }
 
+.free-trial-text-container{
+  width: 100%;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 .center-content{
   width: 100%;
   align-items: center;
@@ -153,7 +161,7 @@ html,body {
   font-size: 30px;
   margin: auto;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 70%;
   transform: translate(-50%, -50%);
   width: 30%;
@@ -181,6 +189,48 @@ html,body {
 
 
 .banner-caption-1 h1{
+  font-size: 2.5vw;
+  font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.banner-caption-3{
+  color: #000;
+  font-size: 30px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  text-align: start;
+}
+
+.banner-caption-3 .fineprint{
+  font-size: 1.0vw;
+  color: #555555;
+  padding-top: 5px;
+  padding-bottom: 1.2rem;
+}
+
+.banner-caption-3 .btn-text{
+  font-size: 1vw;
+  font-weight: 100;
+}
+
+.banner-caption-3 h3{
+  font-size: 2.0vw;
+  font-weight: 300;
+}
+
+.banner-caption-3 h4{
+  font-size: 1.8vw;
+  font-weight: 300;
+  padding-bottom: 5px;
+  margin-bottom: 2rem;
+}
+.banner-caption-3 h1{
   font-size: 2.5vw;
   font-weight: 700;
   padding-top: 2rem;
@@ -556,8 +606,6 @@ html,body {
 .onlinecourse-bg{
   height: auto;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 20px;
   background-color: lightgray;
 }
 
@@ -628,6 +676,21 @@ html,body {
   }
 
   .banner-caption-1 h3{
+    padding-bottom: 0px;
+  }
+
+  .banner-caption-3{
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+  }
+
+   .banner-caption-3 .fineprint{
+    padding-top: 1px;
+  }
+
+  .banner-caption-3 h3{
     padding-bottom: 0px;
   }
 
