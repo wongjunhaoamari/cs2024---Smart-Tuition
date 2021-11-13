@@ -124,6 +124,10 @@ html,body {
   object-fit: scale-down;
 }
 
+.contact-container img {
+  filter: brightness(0.3);
+}
+
 
 /* .contact-container img {
   object-fit: fit;
@@ -168,7 +172,7 @@ html,body {
   color: #000;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 70%;
   transform: translate(-50%, -50%);
   width: 30%;
@@ -189,14 +193,12 @@ html,body {
 .banner-caption-1 h3{
   font-size: 2.0vw;
   font-weight: 300;
-  padding-bottom: 3rem;
 }
-
 
 .banner-caption-1  h1{
   font-size: 2.5vw;
   font-weight: 700;
-  padding-bottom: 2rem;
+  padding-bottom: 1.3vw;
 }
 
 .banner-caption-2{
@@ -210,13 +212,19 @@ html,body {
   text-align: start;
 }
 
-.banner-caption-2 .fineprint{
+.banner-caption-2 .btn-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.banner-caption-2 .fineprint {
   font-size: 1.0vw;
   color: #555555;
   padding-bottom: 1.2rem;
 }
 
-.banner-caption-2 .btn-text{
+.banner-caption-2 .btn-text {
   font-size: 1vw;
   font-weight: 100;
 }
@@ -227,10 +235,12 @@ html,body {
 }
 
 
-.banner-caption-2  h1{
-  font-size: 2.5vw;
-  font-weight: 700;
-  padding-bottom: 2rem;
+.banner-caption-2  h4{
+  font-size: 1.5vw;
+  font-weight: 300;
+  padding-top: 2vw;
+  padding-bottom: 0.1vw;
+  margin-bottom: 2rem;
 }
 
 .banner-caption-3{
@@ -390,6 +400,10 @@ html,body {
 
 .achievement-container {
   width: 100%;
+}
+
+.content-container{
+  padding-left: 48px;
 }
 
 .nav-item a{
@@ -878,10 +892,12 @@ html,body {
   .event-container{
     grid-template-columns: repeat(1, 1fr);
   }
-
   /* coursefee */
   .coursefee-container{
     grid-template-columns: repeat(1, 1fr);
+  }
+  .content-container{
+    padding-left: 24px;
   }
 
   .center-adjust{
@@ -909,9 +925,35 @@ html,body {
   }
 
   .banner-caption-1 h1{
-    padding-bottom: 0px;
+    padding-bottom: 1vw;
   }
 
+  .banner-caption-2{
+    top: 35%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 30%;
+  }
+
+   .banner-caption-2 .fineprint {
+    padding-top: 1px;
+    padding-bottom: 0rem;
+  }
+
+  .banner-caption-2 h3{
+    padding-bottom: 0vw;
+    margin-block-end: 0px;
+  }
+
+  .banner-caption-2 h4{
+    padding-bottom: 5px;
+    margin-block-end: 0px;
+  }
+  .banner-caption-2 .btn-container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1px;
+  }
   .banner-caption-3{
     top: 35%;
     left: 75%;
