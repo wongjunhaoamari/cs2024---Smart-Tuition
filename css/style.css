@@ -36,6 +36,15 @@ html,body {
     max-height: 80%;
 }
 
+#logo{
+  width: 125px;
+}
+
+#footerlogo{
+  width: 30px;
+  margin: auto;
+}
+
 #maxwidth{
   margin: auto;
   width: 80%;
@@ -64,6 +73,7 @@ html,body {
 
 .navbar, .navbar-expand-lg, .navbar-light{
   width: 75%;
+  font-weight: bold;
   margin: auto;
   padding: 1rem 4rem 1rem 3rem;
   background: white;
@@ -86,7 +96,6 @@ html,body {
 
 .navbar-toggler:focus {
   box-shadow: none;
-
 }
 
 .center-container{
