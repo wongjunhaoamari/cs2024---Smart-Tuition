@@ -413,6 +413,18 @@ html,body {
   margin: auto;
 }
 
+/* .class-setting img {
+  display: block;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+} */
+/*
+.class-setting-setting {
+height:270px;
+width:100%;
+} */
+
 /* Header Banner */
 .headerimg {
   position: relative;
